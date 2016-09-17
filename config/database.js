@@ -1,7 +1,5 @@
 var mongoose = require('mongoose');
 
-var port = process.env.PORT || 3000
-
 // Use different database URIs based on whether an env var exists.
 var dbUri = process.env.MONGODB_URI ||
             'mongodb://localhost/ladaily';
